@@ -59,7 +59,6 @@ public class HQLHelper {
 			this.orderByStr += ", " + orderBy + (asc ? " ASC " : " DESC ");
 		}
 	}
-	
 	/**
 	 * 获取查询List集合的HQL语句
 	 * @return
@@ -67,10 +66,8 @@ public class HQLHelper {
 	public String getListHQL(){
 		return this.fromStr + this.whereStr + this.orderByStr;
 	}
-	
 	/**
 	 * 获取查询统计记录数的HQL
-	 * @param args
 	 */
 	public String getCountHQL(){
 		return "SELECT COUNT(*) " + this.fromStr + this.whereStr;

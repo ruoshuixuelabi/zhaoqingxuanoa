@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="web" name="Web2">
       <configuration>
@@ -16,6 +16,11 @@
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
+          <fileset id="s2fileset" name="My Fileset" removed="false">
+            <file>file://$MODULE_DIR$/src/main/resources/struts.xml</file>
+            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.31/struts2-core-2.3.31.jar!/struts-default.xml</file>
+            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-spring-plugin/2.3.31/struts2-spring-plugin-2.3.31.jar!/struts-plugin.xml</file>
+          </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
       </facet>

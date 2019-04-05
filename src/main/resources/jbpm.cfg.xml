@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <jbpm-configuration>
-
   <import resource="jbpm.default.cfg.xml" />
   <import resource="jbpm.businesscalendar.cfg.xml" />
   <!--
@@ -11,11 +9,9 @@
   <import resource="jbpm.jpdl.cfg.xml" />
   <import resource="jbpm.bpmn.cfg.xml" />
   <import resource="jbpm.identity.cfg.xml" />
-
   <!-- Job executor is excluded for running the example test cases. -->
   <!-- To enable timers and messages in production use, this should be included. -->
   <!--
   <import resource="jbpm.jobexecutor.cfg.xml" />
   -->
-
 </jbpm-configuration>
